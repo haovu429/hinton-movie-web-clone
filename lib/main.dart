@@ -1,3 +1,4 @@
+//@dart=2.9
 import 'package:admin_movie/data/extension/session_manager.dart';
 import 'package:admin_movie/observer.dart';
 import 'package:admin_movie/presentation/screens/create_post/bloc/add_update_bloc.dart';
