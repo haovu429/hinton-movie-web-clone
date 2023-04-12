@@ -1,0 +1,66 @@
+name: admin_movie
+description: Admin panel movie.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  auto_route: ^5.0.4
+  auto_size_text: ^3.0.0
+  cupertino_icons: ^1.0.5
+  dartz: ^0.10.1
+  data_table_2: ^2.4.1
+  dotted_border: ^2.0.0+3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  date_time_picker: "^2.1.0"
+  flutter_feather_icons: ^2.0.0+1
+  flutter_screenutil: ^5.7.0
+  freezed_annotation: ^2.2.0
+  get_it: ^7.2.0
+  google_fonts: ^4.0.3
+  injectable: ^2.1.0
+  intl: ^0.17.0
+  dio: ^5.1.1
+  retrofit: ^4.0.1
+  connectivity_plus: ^3.0.3
+  pretty_dio_logger: ^1.3.1
+  fimber_io: ^0.6.6
+  json_annotation: ^4.8.0
+  retrofit_generator: ^6.0.0+1
+  g_json: ^4.1.0
+  shared_preferences: ^2.1.0
+  dropdown_button2: ^2.0.0
+  image_picker: ^0.8.7+1
+  html: ^0.15.2
+
+dev_dependencies:
+  auto_route_generator: ^5.0.3
+  build_runner: ^2.3.3
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.3.2
+  injectable_generator: ^2.1.4
+  json_serializable: ^6.6.1
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/minus.png
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
