@@ -1,1 +1,1 @@
-web: ./dart-sdk/bin/dart pub global run dhttpd --port 8080 --host 0.0.0.0 --path /app/build/web/
+web: ./dart-sdk/bin/dart pub global run dhttpd --port 8082 --host 0.0.0.0 --path build/web/
